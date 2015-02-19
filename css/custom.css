@@ -1,0 +1,27 @@
+.text-underline {
+    text-decoration: underline;
+}
+
+.isotope-item.cat1 .image-box {
+    border: 1px solid #269abc;
+}
+
+.filters .cat1 {
+    border: 1px solid #269abc;
+}
+
+.isotope-item.cat2 .image-box {
+    border: 1px solid #c12e2a;
+}
+
+.filters .cat2 {
+    border: 1px solid #c12e2a;
+}
+
+.isotope-item.cat3 .image-box {
+    border: 1px solid #4cae4c;
+}
+
+.filters .cat3 {
+    border: 1px solid #4cae4c;
+}
