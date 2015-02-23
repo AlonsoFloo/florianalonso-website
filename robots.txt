@@ -1,0 +1,17 @@
+User-agent: Googlebot
+Disallow: /resume_florian_alonso.pdf
+
+User-agent: Bingbot
+Disallow: /resume_florian_alonso.pdf
+
+User-agent: Teoma
+Disallow: /resume_florian_alonso.pdf
+
+User-agent: DuckDuckBot
+Disallow: /resume_florian_alonso.pdf
+
+User-agent: Slurp
+Disallow: /resume_florian_alonso.pdf
+
+User-agent: *
+Disallow: 
