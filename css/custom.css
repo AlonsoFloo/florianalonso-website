@@ -25,3 +25,9 @@
 .filters .cat3 {
     border: 1px solid #4cae4c;
 }
+
+@media print {
+    body {
+        display: none;
+    }
+}
