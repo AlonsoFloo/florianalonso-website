@@ -11,8 +11,7 @@
 $(document).ready(function() {
     $(".overlay-container").click(function() {
         var title = $(this).text().trim();
-        alert(title);
-        ga('send', 'event', 'project', 'seen', title);
+        ga('send', 'event', 'project', 'openned', title);
     });
 });
     
