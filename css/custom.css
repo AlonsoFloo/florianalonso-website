@@ -26,6 +26,14 @@
     border: 1px solid #4cae4c;
 }
 
+.isotope-item.cat4 .image-box {
+    border: 1px solid purple;
+}
+
+.filters .cat4 {
+    border: 1px solid purple;
+}
+
 @media print {
     body {
         display: none;
