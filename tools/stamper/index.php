@@ -1,5 +1,6 @@
 <?php
-// http://127.0.0.1:8888/Personnel/github-website/tools/stamper/?bk_color=444444&text_color=CCCCCC&title_color=DADADA&text=Approuved&title=Flalo
+// Note : 
+// Flalo Certified : ?bk_color=264d00&text_color=ff3399&title_color=DADADA&text=Certified&title=Flalo
 
 // Text
 $text = isset($_GET["text"]) ? $_GET["text"] : "";
@@ -24,23 +25,6 @@ $title_color_green = strlen($title_color) == 6 ? hexdec($title_color[2] . '' . $
 $title_color_blue = strlen($title_color) == 6 ? hexdec($title_color[4] . '' . $title_color[5]) : "0";
 
 
-// Calculating
-$margin_top = 20;
-$margin_left = 50;
-$margin_right = $margin_left;
-$text_font_size = 30;
-$text_letter_size = $text_font_size * 0.92;
-$text_width = ($text_letter_size * strlen($text));
-$text_margin_top = 75;
-$width = ($margin_left + $margin_right) + $text_width;
-$height = 100;
-
-
-$title_font_size = 12;
-$title_letter_size = $title_font_size * 1.2;
-$title_width = ($title_letter_size * strlen($title));
-$title_margin_left = ($width / 2) - ($title_width / 2);
-
 
 // Settings
 $text_font = dirname(__FILE__) . '/assets/old_stamper.ttf';
@@ -48,6 +32,33 @@ $title_font = dirname(__FILE__) . '/assets/beamweapon.ttf';
 $radius = 15;
 
 
+
+// Calculating
+$margin_top = 10;
+$margin_bottom = 20;
+$margin_left = 50;
+$margin_right = $margin_left;
+$text_font_size = 30;
+$text_font_box = imagettfbbox($text_font_size, 0, $text_font, $text);
+$text_width = abs($text_font_box[4] - $text_font_box[0]);
+$text_bug_padding = -8;
+$text_height = abs($text_font_box[5] - $text_font_box[1]) + $text_bug_padding;
+$width = ($margin_left + $margin_right) + $text_width;
+
+
+$title_font_size = 12;
+$title_font_box = imagettfbbox($title_font_size, 0, $title_font, $title);
+$title_width = abs($title_font_box[4] - $title_font_box[0]);
+$title_height = abs($title_font_box[5] - $title_font_box[1]);
+$title_margin_left = ($width / 2) - ($title_width / 2);
+$title_margin_top = $margin_top + $title_height;
+
+$text_image_space_top = 15;
+$text_margin_top = $title_margin_top + $text_image_space_top + $text_height ;
+$height = $text_margin_top + $margin_bottom;
+
+
+// Creating
 $image_ressources = imagecreatetruecolor($width, $height);
 $bk_color_ressource = imagecolorallocate($image_ressources, $bk_color_red, $bk_color_green, $bk_color_blue);
 $text_color_ressource = imagecolorallocate($image_ressources, $text_color_red, $text_color_green, $text_color_blue);
@@ -82,7 +93,7 @@ imagefilledellipse($image_ressources, $width-$radius, $radius, $dia, $dia, $bk_c
 
 
 // Add the Title
-imagettftext($image_ressources, $title_font_size, 0, $title_margin_left, $margin_top, $title_color_ressource, $title_font, $title);
+imagettftext($image_ressources, $title_font_size, 0, $title_margin_left, $title_margin_top, $title_color_ressource, $title_font, $title);
 // Add the text
 imagettftext($image_ressources, $text_font_size, 0, $margin_left, $text_margin_top, $text_color_ressource, $text_font, "[" . $text . "]");
 
