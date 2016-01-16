@@ -101,7 +101,7 @@ $start_angle_top = $start_angle_top - (($end_angle_top - $start_angle_top) / 2);
 
 $start_angle_bottom = 90;
 $end_angle_top = imagettftextarc_lastAngle($image_ressources, $text_font_size, $start_angle_bottom, $centerX, $centerY + 5, $radius_text_bottom, $color_black_ressource, $text_font, $text_bottom, true);
-$start_angle_bottom = $start_angle_bottom - (($start_angle_top - $end_angle_top) / 2);
+$start_angle_bottom = $start_angle_bottom + (($start_angle_bottom - $end_angle_top) / 2);
 
 
 // Alpha
