@@ -1,6 +1,6 @@
 <?php
 // Note : 
-// Flalo Certified : ?bk_color=264d00&text_color=ff3399&title_color=DADADA&text=Certified&title=Flalo
+// Flalo Certified : ?bk_color=FFFFFF&text_color=cc0000&title_color=333333&text=Certified&title=Flalo
 
 // Text
 $text = isset($_GET["text"]) ? $_GET["text"] : "";
