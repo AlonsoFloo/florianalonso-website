@@ -1,853 +1,1081 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en">
-    <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>Florian ALONSO - Software Engineer</title>
-        <meta name="description" content="I work for Smile, an open source integrator company, for half of the time and spend the rest of it at school where I am preparing my Master degree. I study at EPSI Montpellier, a french private college specialized in computer engineering. There, I am working on improving my knowledge thanks, for instance, to rewarding internships or school projects. My goal is to extend my knowledge and skills for a large number of technologies, particularly the low level ones. If you want someone that is patient, persistent and always smiling, keep scrolling down, maybe we can work together ?!!">
-        <meta name="author" content="Florian ALONSO - Software Engineer">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Florian ALONSO - Software Engineer</title>
+    <meta name="description"
+          content="I work for Smile, an open source integrator company, for half of the time and spend the rest of it at school where I am preparing my Master degree. I study at EPSI Montpellier, a french private college specialized in computer engineering. There, I am working on improving my knowledge thanks, for instance, to rewarding internships or school projects. My goal is to extend my knowledge and skills for a large number of technologies, particularly the low level ones. If you want someone that is patient, persistent and always smiling, keep scrolling down, maybe we can work together ?!!">
+    <meta name="author" content="Florian ALONSO - Software Engineer">
 
-        <!-- Mobile Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
 
-        <!-- Web Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-        <!-- Font Awesome CSS -->
-        <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-        <!-- Plugins -->
-        <link href="css/animations.css" rel="stylesheet">
+    <!-- Plugins -->
+    <link href="css/animations.css" rel="stylesheet">
 
-        <!-- Worthy core CSS file -->
-        <link href="css/style.css" rel="stylesheet">
+    <!-- Worthy core CSS file -->
+    <link href="css/style.css" rel="stylesheet">
 
-        <!-- Custom css --> 
-        <link href="css/custom.css" rel="stylesheet">
+    <!-- Custom css -->
+    <link href="css/custom.css" rel="stylesheet">
 
-        <!-- Analytics  -->
-        <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <!-- Analytics  -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', 'UA-59895288-1', 'auto');
-            ga('send', 'pageview');
+        ga('create', 'UA-59895288-1', 'auto');
+        ga('send', 'pageview');
 
-        </script>
+    </script>
 
-	<!-- Facebook -->
-	<meta property="og:title" content="Florian ALONSO - Software Engineer" />
-	<meta property="og:description" content="Hi, I'm Florian ALONSO. A Software developer, check out my resume !" />
-	<meta property="og:image" content="http://www.florianalonso.com/images/me.jpg" />
-    </head>
+    <!-- Facebook -->
+    <meta property="og:title" content="Florian ALONSO - Software Engineer"/>
+    <meta property="og:description" content="Hi, I'm Florian ALONSO. A Software developer, check out my resume !"/>
+    <meta property="og:image" content="http://www.florianalonso.com/images/me.jpg"/>
+</head>
 
-    <body class="no-trans">
-        <!-- scrollToTop -->
-        <!-- ================ -->
-        <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+<body class="no-trans">
+<!-- scrollToTop -->
+<!-- ================ -->
+<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 
-        <!-- header start -->
-        <!-- ================ --> 
-        <header class="header fixed clearfix navbar navbar-fixed-top">
-            <div class="container">
+<!-- header start -->
+<!-- ================ -->
+<header class="header fixed clearfix navbar navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                <!-- header-left start -->
+                <!-- ================ -->
+                <div class="header-left clearfix">
+
+                    <!-- name-and-slogan -->
+                    <div class="site-name-and-slogan smooth-scroll">
+                        <div class="site-name"><a href="#banner">Florian ALONSO</a></div>
+                        <div class="site-slogan">Software Engineer</div>
+                    </div>
+
+                </div>
+                <!-- header-left end -->
+
+            </div>
+            <div class="col-md-8">
+
+                <!-- header-right start -->
+                <!-- ================ -->
+                <div class="header-right clearfix">
+
+                    <!-- main-navigation start -->
+                    <!-- ================ -->
+                    <div class="main-navigation animated">
+
+                        <!-- navbar start -->
+                        <!-- ================ -->
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+
+                                <!-- Toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target="#navbar-collapse-1">
+                                        <span class="sr-only">Navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a href="#banner">Home</a></li>
+                                        <li><a href="#about">About Me</a></li>
+                                        <li><a href="#skills">Skills</a></li>
+                                        <li><a href="#experiences">Experiences</a></li>
+                                        <li><a href="#quotes">Quotes</a></li>
+                                        <li><a href="#social">Social</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+                        <!-- navbar end -->
+
+                    </div>
+                    <!-- main-navigation end -->
+
+                </div>
+                <!-- header-right end -->
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header end -->
+
+<!-- banner start -->
+<!-- ================ -->
+<div id="banner" class="banner">
+    <div class="banner-image"></div>
+    <div class="banner-caption">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+                    <h1 class="text-center">Coding, <span>well and fast</span></h1>
+                    <p class="lead text-center">Always code as if the guy who ends up maintaining your code will be a
+                        violent psychopath who knows where you live - Martin Golding</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- banner end -->
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="about" class="title text-center">Florian ALONSO</h1>
+                <div class="space"></div>
                 <div class="row">
                     <div class="col-md-4">
-
-                        <!-- header-left start -->
-                        <!-- ================ -->
-                        <div class="header-left clearfix">
-
-                            <!-- name-and-slogan -->
-                            <div class="site-name-and-slogan smooth-scroll">
-                                <div class="site-name"><a href="#banner">Florian ALONSO</a></div>
-                                <div class="site-slogan">Software Engineer</div>
-                            </div>
-
-                        </div>
-                        <!-- header-left end -->
-
+                        <img src="images/me.jpg" alt="Florian ALONSO picture" class="img-circle">
+                        <div class="space"></div>
                     </div>
                     <div class="col-md-8">
+                        <h2>Welcome to my world,</h2>
+                        <p>I work for <a href="http://www.neopixl.com/">Neopixl</a>, a mobile development company. I
+                            studied at <a href="http://www.epsi.fr">EPSI Montpellier</a>, a french private college
+                            specialized in computer engineering, and past my Master Degree.</p>
+                        <p>My goal is to extend my knowledge and skills for a large number of technologies, particularly
+                            the low level ones. If you want someone that is patient, persistent and always smiling, keep
+                            scrolling down, maybe we can work together ?!!</p>
 
-                        <!-- header-right start -->
-                        <!-- ================ -->
-                        <div class="header-right clearfix">
-
-                            <!-- main-navigation start -->
-                            <!-- ================ -->
-                            <div class="main-navigation animated">
-
-                                <!-- navbar start -->
-                                <!-- ================ -->
-                                <nav class="navbar navbar-default" role="navigation">
-                                    <div class="container-fluid">
-
-                                        <!-- Toggle get grouped for better mobile display -->
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                                                <span class="sr-only">Navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                            </button>
-                                        </div>
-
-                                        <!-- Collect the nav links, forms, and other content for toggling -->
-                                        <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li class="active"><a href="#banner">Home</a></li>
-                                                <li><a href="#about">About Me</a></li>
-                                                <li><a href="#skills">Skills</a></li>
-                                                <li><a href="#experiences">Experiences</a></li>
-                                                <li><a href="#quotes">Quotes</a></li>
-                                                <li><a href="#social">Social</a></li>
-                                                <li><a href="#contact">Contact</a></li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </nav>
-                                <!-- navbar end -->
-
-                            </div>
-                            <!-- main-navigation end -->
-
-                        </div>
-                        <!-- header-right end -->
-
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header end -->
-
-        <!-- banner start -->
-        <!-- ================ -->
-        <div id="banner" class="banner">
-            <div class="banner-image"></div>
-            <div class="banner-caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-                            <h1 class="text-center">Coding, <span>well and fast</span></h1>
-                            <p class="lead text-center">Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live - Martin Golding</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- banner end -->
-
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 id="about" class="title text-center">Florian ALONSO</h1>
                         <div class="space"></div>
-                        <div class="row"> 
-                            <div class="col-md-4">
-                                <img src="images/me.jpg" alt="Florian ALONSO picture" class="img-circle">
-                                <div class="space"></div>
-                            </div>
-                            <div class="col-md-8">
-                                <h2>Welcome to my world,</h2>
-                                <p>I work for <a href="http://www.neopixl.com/">Neopixl</a>, a mobile development company. I studied at <a href="http://www.epsi.fr">EPSI Montpellier</a>, a french private college specialized in computer engineering, and past my Master Degree.</p>
-                                <p>My goal is to extend my knowledge and skills for a large number of technologies, particularly the low level ones. If you want someone that is patient, persistent and always smiling, keep scrolling down, maybe we can work together ?!!</p>
-
-                                <div class="space"></div>
-                                <h2>Graduations</h2>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Since September 2015: EPSI Montpellier - Computer Science School (Master degree)</li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Bachelor in computer science in 2014, EPSI Montpellier</li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> French Baccalauréat Scientific- High school Jean Moulin, Béziers 2011</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <h2 id="skills"><span>Skills</span></h2>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <h2>Languages</h2>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Java </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Objective-C </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> C# </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> C++ </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> PHP </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <h2>Data Base</h2>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> SQL Server </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Oracle </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> MongoDB </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> MySQL </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Neo4J </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Cassandra </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <h2>Framework / API</h2>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Liferay </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Android </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Cordova </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Pentaho Suite (BI) </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Mono </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Puppet </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <h2>Environements</h2>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Linux </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Eclipse </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Visual Studio </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Xamarin Studio </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> xCode </li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> NetBeans </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <h2>Graduations</h2>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Since September 2015: EPSI
+                                Montpellier - Computer Science School (Master degree)
+                            </li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Bachelor in computer science in
+                                2014, EPSI Montpellier
+                            </li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> French Baccalauréat Scientific-
+                                High school Jean Moulin, Béziers 2011
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- section end -->
 
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="default-bg space blue">
-            <div class="container">
+                <h2 id="skills"><span>Skills</span></h2>
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="text-center">Let's Work Together!</h1>
+                    <div class="col-md-3">
+                        <h2>Languages</h2>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Java</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Objective-C</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> C#</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> C++</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> PHP</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>Data Base</h2>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> SQL Server</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Oracle</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> MongoDB</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> MySQL</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Neo4J</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Cassandra</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>Framework / API</h2>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Liferay</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Android</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Cordova</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Pentaho Suite (BI)</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Mono</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Puppet</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>Environements</h2>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Linux</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Eclipse</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Visual Studio</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> Xamarin Studio</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> xCode</li>
+                            <li><i class="fa fa-caret-right pr-10 text-colored"></i> NetBeans</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- section end -->
+    </div>
+</div>
+<!-- section end -->
 
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="section">
-            <div class="container">
-                <h1 class="text-center title" id="experiences">Experiences</h1>
-                <div class="separator"></div>
-                <br>			
-                <div class="row object-non-visible" data-animation-effect="fadeIn">
-                    <div class="col-md-12">
+<!-- section start -->
+<!-- ================ -->
+<div class="default-bg space blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="text-center">Let's Work Together!</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section end -->
 
-                        <!-- isotope filters start -->
-                        <div class="filters text-center">
-                            <ul class="nav nav-pills">
-                                <li class="active"><a href="#" data-filter="*">All</a></li>
-                                <li><a href="#" data-filter=".cat4" class="cat4">Foreign Country</a></li>
-                                <li><a href="#" data-filter=".cat1" class="cat1">Software</a></li>
-                                <li><a href="#" data-filter=".cat2" class="cat2">Network</a></li>
-                                <li><a href="#" data-filter=".cat3" class="cat3">Other</a></li>
-                            </ul>
+<!-- section start -->
+<!-- ================ -->
+<div class="section">
+    <div class="container">
+        <h1 class="text-center title" id="experiences">Experiences</h1>
+        <div class="separator"></div>
+        <br>
+        <div class="row object-non-visible" data-animation-effect="fadeIn">
+            <div class="col-md-12">
+
+                <!-- isotope filters start -->
+                <div class="filters text-center">
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".cat4" class="cat4">Foreign Country</a></li>
+                        <li><a href="#" data-filter=".cat1" class="cat1">Software</a></li>
+                        <li><a href="#" data-filter=".cat2" class="cat2">Network</a></li>
+                        <li><a href="#" data-filter=".cat3" class="cat3">Other</a></li>
+                    </ul>
+                </div>
+                <!-- isotope filters end -->
+
+                <!-- portfolio items start -->
+                <div class="isotope-container row grid-space-20">
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1 cat4">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/neopixl_banner.jpg"
+                                     alt="Neopixl - Internship - Luxembourg - Mobile Developer">
+                                <a class="overlay" data-toggle="modal" data-target="#project-8">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Neopixl - Mobile Developer</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Neopixl -
+                                Mobile Developer</a>
                         </div>
-                        <!-- isotope filters end -->
-
-                        <!-- portfolio items start -->
-                        <div class="isotope-container row grid-space-20">
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat1 cat4">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/neopixl_banner.jpg" alt="Neopixl - Internship - Luxembourg - Mobile Developer">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-8">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Neopixl - Mobile Developer</span>
-                                        </a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-8" tabindex="-1" role="dialog"
+                             aria-labelledby="project-8-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-5-label">Neopixl - Mobile Developer</h4>
                                     </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Neopixl - Mobile Developer</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-5-label">Neopixl - Mobile Developer</h4>
+                                    <div class="modal-body">
+                                        <h3>Mobile Developer - Neopixl Luxembourg, Luxembourg (2016)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.neopixl.com/">www.neopixl.com</a></p>
+                                                <p><span class="text-underline">The Company</span> : Neopixl is a team
+                                                    of experts, providing services to help you create your mobile app,
+                                                    from inception to development, maintenance and marketing.</p>
+                                                <p><span class="text-underline">Mobile Development</span> : My mission
+                                                    is to use my technical knowledge to develop a multiple Android and
+                                                    iOS application for different client.</p>
+                                                <p><span class="text-underline">DevOps</span> : With my knowledge into
+                                                    DevOps, my second mission is to create and automate all the build
+                                                    and deployment workflow in the company.</p>
+                                                <p><img src="images/neopixl-logo.png" alt="Neopixl - Mobile Developer"/>
+                                                </p>
                                             </div>
-                                            <div class="modal-body">
-                                                <h3>Mobile Developer - Neopixl Luxembourg, Luxembourg (2016)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.neopixl.com/">www.neopixl.com</a></p>
-                                                        <p><span class="text-underline">The Company</span> : Neopixl is a team of experts, providing services to help you create your mobile app, from inception to development, maintenance and marketing.</p>
-                                                        <p><span class="text-underline">Mobile Development</span> : My mission is to use my technical knowledge to develop a multiple Android and iOS application for different client.</p>
-                                                        <p><span class="text-underline">DevOps</span> : With my knowledge into DevOps, my second mission is to create and automate all the build and deployment workflow in the company.</p>
-                                                        <p><img src="images/neopixl-logo.png" alt="Neopixl - Mobile Developer"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/neopixl_banner.jpg" alt="Neopixl - Mobile Developer">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                                            <div class="col-md-6">
+                                                <img src="images/neopixl_banner.jpg" alt="Neopixl - Mobile Developer">
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
                                 </div>
-                                <!-- Modal end -->
                             </div>
-                            
-                            <div class="col-sm-6 col-md-3 isotope-item cat1 cat2 cat4">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/smile-devops-experiences.png" alt="Smile Open Source - Internship - Amsterdam - DevOps">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-7">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Smile Amsterdam - DevOps</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Smile Amsterdam - DevOps</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-5-label">Smile Amsterdam - DevOps</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>DevOps - Smile Open Source Solutions Amsterdam, Netherland (2015)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
-                                                        <p><span class="text-underline">The Company</span> : Smile is an open source integrator who uses a lot of frameworks for a lot of clients. I was in the DevOps team working with the IT.</p>
-                                                        <p><span class="text-underline">Continuous Integration</span> : My mission was to use my technical knowledge to maintain consistency between developers and the IT team. I was asked to build a new deployment method for Magento and Solr. Obviously I used the opportunity to make a fully integrated environment and a code quality analysis with Ant and Jenkins.</p>
-                                                        <p><img src="images/logo-smile.png" alt="Smile Open Source - Internship"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/smile-devops-experiences.png" alt="Smile Open Source">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-3 isotope-item cat1">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/smile-ios-experiences.jpg" alt="Smile Open Source - Internship - Montpellier - iOS Developer">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-6">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Smile - iOS Developer</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Smile - iOS Developer</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-5-label">Smile - iOS Developer</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>iOS Developer - Smile Open Source Solutions, Montpellier (2015)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
-                                                        <p><span class="text-underline">The Company</span> : Smile is an open source integrator who uses a lot of frameworks for a lot of clients. I was in the DevOps team working with the IT.</p>
-                                                        <p><span class="text-underline">Cordova</span> : I develop two applications for two customers of the company Smile. The first one uses the framework Cordova from Apache. Its a cross platform plugin based framework to build easily an application using a web site.</p>
-                                                        <p><span class="text-underline">Native Application</span> : The second one is a native iOS application for the customer Visa Infinite. I participated in the development of the second version of the application with a new user interface and a lot of the features.</p>
-                                                        <p><img src="images/logo-smile.png" alt="Smile Open Source - Internship"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/smile-ios-experiences.jpg" alt="Smile Open Source">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat1">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/smile-liferay-experiences.jpg" alt="Smile Open Source - Internship - Liferay">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-5">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Smile - Java Developer</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Smile - Java Developer</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-5-label">Smile - Java Developer With Liferay</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>Java Developer With Liferay Smile, France (2015)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
-                                                        <p><span class="text-underline">The Company</span> : Smile is an open source integrator who uses a lot of frameworks for a lot of clients. I was in the team working for Volkswagen France and I used Java with the framework <i>Liferay</i>.</p>
-                                                        <p><span class="text-underline">The Framework</span> : All the internal systems of Volkswagen France were in 3 web sites, all of them using the <i>Liferay</i> framework. I was asked to do some TPMA (Third Party Application Maintenance) on this framework in Java.</p>
-                                                        <p><span class="text-underline">Results</span> : The Volkswagen Group has now a stable and full web interface for their intranet and internal system.</p>
-                                                        <p><img src="images/logo-smile.png" alt="Smile Open Source - Internship"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/smile-liferay-experiences.jpg" alt="Smile Open Source">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat1">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/smile-bi-experiences.jpg" alt="Smile Open Source - Internship - BI">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-4">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Smile - Business Intelligence</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Smile - Business Intelligence</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-4-label">Smile - Business Intelligence</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>Business Intelligence Smile, France (2014)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
-                                                        <p><span class="text-underline">Pentaho BI Suite</span> : Smile use <i>Redmine</i> as their internal management system, which is a flexible web application for project management. They wanted to do a business analysis on their internal data.</p>
-                                                        <p><span class="text-underline">Results</span> : The managers can now see exactly how their teams work with each other and what they can improve.</p>
-                                                        <p><img src="images/logo-smile.png" alt="Smile Open Source - Internship"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/smile-bi-experiences.jpg" alt="Smile Open Source">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat1">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/dev2a-mobile-experiences.png" alt="Dev2a - Modible Developement">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-3">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Dev2a - Android & iOS</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Dev2a - Android & iOS</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-3-label">Dev2a - Android & iOS</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>Android & iOS Development Dev2a, France (2013)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.dev2a.com/">www.dev2a.com</a></p>
-                                                        <p><span class="text-underline">Interface</span> : After having redecorated the web interface, mobile applications were no longer up to date. The goal was to make ergonomic, simple and modern views. The use of gestures and dynamic views has help to reach the best user experience.</p>
-                                                        <p><span class="text-underline">Language</span> : My internship at Dev2a allowed me to improve my knowledge of the Android SDK and the Objective-C language.</p>
-                                                        <p><span class="text-underline">Results</span> : Helped the company to gain new market share by adding new modules and improved the final user experience.</p>
-                                                        <p><img src="images/logo-DEV2A-huge.png" alt="Dev2a - Modible Developement"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/dev2a-mobile-experiences.png" alt="Dev2a - Modible Developement">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat1">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/dev2a-web-experiences.jpg" alt="Dev2a - Modible Developement">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-2">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Dev2a - Web</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Dev2a - Web</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-2-label">Dev2a - Web</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>Web Development Dev2a, France (2013)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.dev2a.com/">www.dev2a.com</a></p>
-                                                        <p><span class="text-underline">Redesign</span> : I used bootstrap for the website redesign. It allowed me to manage the notion of "Responsive Design". This site can be accessed and used from a smartphone which is a selling point for an administration platform.</p>
-                                                        <p><span class="text-underline">Statistics</span> : One of the biggest tasks that I had to realize was the creation of a Statistics Manager. Indeed, such a tool must be implemented on all platforms (iPhone, Android, Web) and need a specific database. Manage the backup and reliability of information was key. This project allowed me to improve my skills in PHP, HTML, CSS, LINUX and MySQL.</p>
-                                                        <p><span class="text-underline">Results</span> : Helped the company to gain new market share and improved the user back-end experience.</p>
-                                                        <p><img src="images/logo-DEV2A-huge.png" alt="Dev2a - Modible Developement"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/dev2a-web-experiences.jpg" alt="Dev2a - Modible Developement">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat2">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/network-experiences.jpg" alt="Network Experience">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-1">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Network</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Network Assistant</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-1-label">Polyclinic Saint Jean - Network Assistant</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>Polyclinic Saint Jean, France (2012)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.clinique-saint-jean.fr/">www.clinique-saint-jean.fr</a></p>
-                                                        <p><span class="text-underline">Why</span> : The biggest part for me was to understand what happened when you use the network. What is a TCP connection and a lot of other questions related to that field. That's why I did an internship in the network staff of a clinic.</p>
-                                                        <p><span class="text-underline">Mission</span> : I created a Hyper-V cluster and I migrated an old ESX to this newest architecture. At the end of the internship, I was able to respond to any of the questions about the network.</p>
-                                                        <p><span class="text-underline">Results</span> : Improved the performance of the architecture, better resistance to breakage and reduced failures due to server's hardware.</p>
-                                                        <p><img src="images/st_jean.jpg" alt="clinique saint jean"/></p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/network-experiences.jpg" alt="Network Experience">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item cat3">
-                                <div class="image-box">
-                                    <div class="overlay-container">
-                                        <img src="images/summer-camps-experiences.jpg" alt="Network Experience">
-                                        <a class="overlay" data-toggle="modal" data-target="#project-0">
-                                            <i class="fa fa-search-plus"></i>
-                                            <span>Volunteer host camps Rentals</span>
-                                        </a>
-                                    </div>
-                                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-0">Volunteer host camps Rentals</a>
-                                </div>
-                                <!-- Modal -->
-                                <div class="modal fade" id="project-0" tabindex="-1" role="dialog" aria-labelledby="project-0-label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="project-0-label">Volunteer host camps Rentals</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h3>Volunteer host camps Rentals, France (2010-2012)</h3>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <p><span class="text-underline">Web site</span> : <a href="http://www.centrenotredame.com/">www.centrenotredame.com</a></p>
-                                                        <p><span class="text-underline">The camps</span> : This was a summer sport camp for children/teenagers from 6 to 16 years old. All the workers are volunteers for 3 weeks in the summer and 1 week in February.</p>
-                                                        <p><span class="text-underline">Me</span> : This camp allowed me to improve my sociability skills, I had to be patient and pedagogue. I keep only good memories from this periode of my life and think it was a very good training.</p>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="images/summer-camps-experiences.jpg" alt="Network Experience">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
-                            </div>
-
                         </div>
-                        <!-- portfolio items end -->
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1 cat2 cat4">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/smile-devops-experiences.png"
+                                     alt="Smile Open Source - Internship - Amsterdam - DevOps">
+                                <a class="overlay" data-toggle="modal" data-target="#project-7">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Smile Amsterdam - DevOps</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Smile
+                                Amsterdam - DevOps</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-7" tabindex="-1" role="dialog"
+                             aria-labelledby="project-7-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-5-label">Smile Amsterdam - DevOps</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>DevOps - Smile Open Source Solutions Amsterdam, Netherland (2015)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
+                                                <p><span class="text-underline">The Company</span> : Smile is an open
+                                                    source integrator who uses a lot of frameworks for a lot of clients.
+                                                    I was in the DevOps team working with the IT.</p>
+                                                <p><span class="text-underline">Continuous Integration</span> : My
+                                                    mission was to use my technical knowledge to maintain consistency
+                                                    between developers and the IT team. I was asked to build a new
+                                                    deployment method for Magento and Solr. Obviously I used the
+                                                    opportunity to make a fully integrated environment and a code
+                                                    quality analysis with Ant and Jenkins.</p>
+                                                <p><img src="images/logo-smile.png"
+                                                        alt="Smile Open Source - Internship"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/smile-devops-experiences.png" alt="Smile Open Source">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/smile-ios-experiences.jpg"
+                                     alt="Smile Open Source - Internship - Montpellier - iOS Developer">
+                                <a class="overlay" data-toggle="modal" data-target="#project-6">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Smile - iOS Developer</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Smile -
+                                iOS Developer</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-6" tabindex="-1" role="dialog"
+                             aria-labelledby="project-6-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-5-label">Smile - iOS Developer</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>iOS Developer - Smile Open Source Solutions, Montpellier (2015)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
+                                                <p><span class="text-underline">The Company</span> : Smile is an open
+                                                    source integrator who uses a lot of frameworks for a lot of clients.
+                                                    I was in the DevOps team working with the IT.</p>
+                                                <p><span class="text-underline">Cordova</span> : I develop two
+                                                    applications for two customers of the company Smile. The first one
+                                                    uses the framework Cordova from Apache. Its a cross platform plugin
+                                                    based framework to build easily an application using a web site.</p>
+                                                <p><span class="text-underline">Native Application</span> : The second
+                                                    one is a native iOS application for the customer Visa Infinite. I
+                                                    participated in the development of the second version of the
+                                                    application with a new user interface and a lot of the features.</p>
+                                                <p><img src="images/logo-smile.png"
+                                                        alt="Smile Open Source - Internship"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/smile-ios-experiences.jpg" alt="Smile Open Source">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/smile-liferay-experiences.jpg"
+                                     alt="Smile Open Source - Internship - Liferay">
+                                <a class="overlay" data-toggle="modal" data-target="#project-5">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Smile - Java Developer</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Smile -
+                                Java Developer</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-5" tabindex="-1" role="dialog"
+                             aria-labelledby="project-5-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-5-label">Smile - Java Developer With
+                                            Liferay</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>Java Developer With Liferay Smile, France (2015)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
+                                                <p><span class="text-underline">The Company</span> : Smile is an open
+                                                    source integrator who uses a lot of frameworks for a lot of clients.
+                                                    I was in the team working for Volkswagen France and I used Java with
+                                                    the framework <i>Liferay</i>.</p>
+                                                <p><span class="text-underline">The Framework</span> : All the internal
+                                                    systems of Volkswagen France were in 3 web sites, all of them using
+                                                    the <i>Liferay</i> framework. I was asked to do some TPMA (Third
+                                                    Party Application Maintenance) on this framework in Java.</p>
+                                                <p><span class="text-underline">Results</span> : The Volkswagen Group
+                                                    has now a stable and full web interface for their intranet and
+                                                    internal system.</p>
+                                                <p><img src="images/logo-smile.png"
+                                                        alt="Smile Open Source - Internship"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/smile-liferay-experiences.jpg" alt="Smile Open Source">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/smile-bi-experiences.jpg" alt="Smile Open Source - Internship - BI">
+                                <a class="overlay" data-toggle="modal" data-target="#project-4">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Smile - Business Intelligence</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Smile -
+                                Business Intelligence</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-4" tabindex="-1" role="dialog"
+                             aria-labelledby="project-4-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-4-label">Smile - Business Intelligence</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>Business Intelligence Smile, France (2014)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.smile-oss.com/">www.smile-oss.com</a></p>
+                                                <p><span class="text-underline">Pentaho BI Suite</span> : Smile use <i>Redmine</i>
+                                                    as their internal management system, which is a flexible web
+                                                    application for project management. They wanted to do a business
+                                                    analysis on their internal data.</p>
+                                                <p><span class="text-underline">Results</span> : The managers can now
+                                                    see exactly how their teams work with each other and what they can
+                                                    improve.</p>
+                                                <p><img src="images/logo-smile.png"
+                                                        alt="Smile Open Source - Internship"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/smile-bi-experiences.jpg" alt="Smile Open Source">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/dev2a-mobile-experiences.png" alt="Dev2a - Modible Developement">
+                                <a class="overlay" data-toggle="modal" data-target="#project-3">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Dev2a - Android & iOS</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Dev2a -
+                                Android & iOS</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-3" tabindex="-1" role="dialog"
+                             aria-labelledby="project-3-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-3-label">Dev2a - Android & iOS</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>Android & iOS Development Dev2a, France (2013)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.dev2a.com/">www.dev2a.com</a></p>
+                                                <p><span class="text-underline">Interface</span> : After having
+                                                    redecorated the web interface, mobile applications were no longer up
+                                                    to date. The goal was to make ergonomic, simple and modern views.
+                                                    The use of gestures and dynamic views has help to reach the best
+                                                    user experience.</p>
+                                                <p><span class="text-underline">Language</span> : My internship at Dev2a
+                                                    allowed me to improve my knowledge of the Android SDK and the
+                                                    Objective-C language.</p>
+                                                <p><span class="text-underline">Results</span> : Helped the company to
+                                                    gain new market share by adding new modules and improved the final
+                                                    user experience.</p>
+                                                <p><img src="images/logo-DEV2A-huge.png"
+                                                        alt="Dev2a - Modible Developement"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/dev2a-mobile-experiences.png"
+                                                     alt="Dev2a - Modible Developement">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat1">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/dev2a-web-experiences.jpg" alt="Dev2a - Modible Developement">
+                                <a class="overlay" data-toggle="modal" data-target="#project-2">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Dev2a - Web</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Dev2a -
+                                Web</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-2" tabindex="-1" role="dialog"
+                             aria-labelledby="project-2-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-2-label">Dev2a - Web</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>Web Development Dev2a, France (2013)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.dev2a.com/">www.dev2a.com</a></p>
+                                                <p><span class="text-underline">Redesign</span> : I used bootstrap for
+                                                    the website redesign. It allowed me to manage the notion of
+                                                    "Responsive Design". This site can be accessed and used from a
+                                                    smartphone which is a selling point for an administration platform.
+                                                </p>
+                                                <p><span class="text-underline">Statistics</span> : One of the biggest
+                                                    tasks that I had to realize was the creation of a Statistics
+                                                    Manager. Indeed, such a tool must be implemented on all platforms
+                                                    (iPhone, Android, Web) and need a specific database. Manage the
+                                                    backup and reliability of information was key. This project allowed
+                                                    me to improve my skills in PHP, HTML, CSS, LINUX and MySQL.</p>
+                                                <p><span class="text-underline">Results</span> : Helped the company to
+                                                    gain new market share and improved the user back-end experience.</p>
+                                                <p><img src="images/logo-DEV2A-huge.png"
+                                                        alt="Dev2a - Modible Developement"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/dev2a-web-experiences.jpg"
+                                                     alt="Dev2a - Modible Developement">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat2">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/network-experiences.jpg" alt="Network Experience">
+                                <a class="overlay" data-toggle="modal" data-target="#project-1">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Network</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Network
+                                Assistant</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-1" tabindex="-1" role="dialog"
+                             aria-labelledby="project-1-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-1-label">Polyclinic Saint Jean - Network
+                                            Assistant</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>Polyclinic Saint Jean, France (2012)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.clinique-saint-jean.fr/">www.clinique-saint-jean.fr</a>
+                                                </p>
+                                                <p><span class="text-underline">Why</span> : The biggest part for me was
+                                                    to understand what happened when you use the network. What is a TCP
+                                                    connection and a lot of other questions related to that field.
+                                                    That's why I did an internship in the network staff of a clinic.</p>
+                                                <p><span class="text-underline">Mission</span> : I created a Hyper-V
+                                                    cluster and I migrated an old ESX to this newest architecture. At
+                                                    the end of the internship, I was able to respond to any of the
+                                                    questions about the network.</p>
+                                                <p><span class="text-underline">Results</span> : Improved the
+                                                    performance of the architecture, better resistance to breakage and
+                                                    reduced failures due to server's hardware.</p>
+                                                <p><img src="images/st_jean.jpg" alt="clinique saint jean"/></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/network-experiences.jpg" alt="Network Experience">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item cat3">
+                        <div class="image-box">
+                            <div class="overlay-container">
+                                <img src="images/summer-camps-experiences.jpg" alt="Network Experience">
+                                <a class="overlay" data-toggle="modal" data-target="#project-0">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Volunteer host camps Rentals</span>
+                                </a>
+                            </div>
+                            <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-0">Volunteer
+                                host camps Rentals</a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="project-0" tabindex="-1" role="dialog"
+                             aria-labelledby="project-0-label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span
+                                                aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="project-0-label">Volunteer host camps Rentals</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>Volunteer host camps Rentals, France (2010-2012)</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><span class="text-underline">Web site</span> : <a
+                                                        href="http://www.centrenotredame.com/">www.centrenotredame.com</a>
+                                                </p>
+                                                <p><span class="text-underline">The camps</span> : This was a summer
+                                                    sport camp for children/teenagers from 6 to 16 years old. All the
+                                                    workers are volunteers for 3 weeks in the summer and 1 week in
+                                                    February.</p>
+                                                <p><span class="text-underline">Me</span> : This camp allowed me to
+                                                    improve my sociability skills, I had to be patient and pedagogue. I
+                                                    keep only good memories from this periode of my life and think it
+                                                    was a very good training.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/summer-camps-experiences.jpg" alt="Network Experience">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end -->
+                    </div>
+
+                </div>
+                <!-- portfolio items end -->
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <h1 class="text-center title" id="product">See the products </h1>
+        <div class="separator"></div>
+        <p class="text-center">Here you can find some project witch I worked for</p>
+        <br>
+
+
+        <div class="row object-non-visible" data-animation-effect="fadeIn">
+            <div class="col-md-12">
+
+                <div class="isotope-container row grid-space-20">
+
+                    <div class="col-sm-6 col-md-3 isotope-item">
+                        <div class="image-box">
+                            <div class="">
+                                <a class="" target="_blank" href="https://itunes.apple.com/fr/app/visa-infinite/id666317943?mt=8">
+                                    <img src="images/final-project-visainfinite.jpeg" alt="projectdone-visainfinite">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Visa Infinite - iOS Application</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 isotope-item">
+                        <div class="image-box">
+                            <div class="">
+                                <a class="" target="_blank" href="https://itunes.apple.com/fr/app/pleinchamp/id917210803?mt=8">
+                                    <img src="images/final-project-pleinchamps.png" alt="projectdone-pleinchamps">
+                                    <i class="fa fa-search-plus"></i>
+                                    <span>Pleinchamps - Cordova Application</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- section end -->
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section translucent-bg bg-quotes pb-clear">
+    <div class="container object-non-visible" data-animation-effect="fadeIn">
+        <h1 id="quotes" class="title text-center">Quotes</h1>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left">
+                        <img src="images/testimonial-1.png" alt="Yoann BONDOUX Quote">
+                    </div>
+                    <div class="media-body">
+                        <blockquote>
+                            <p>Always smiling and happy, he has a gift for human contact and relationships, which
+                                allowed him to easily integrate all kind of teams.</p>
+                            <footer>Yoann BONDOUX. <cite title="Source Title">Smile Montpellier, Project Manager</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left">
+                        <img src="images/testimonial-2.png" alt="Maxime BRITTO  Quote">
+                    </div>
+                    <div class="media-body">
+                        <blockquote>
+                            <p>Florian ALONSO ended up being so efficient and productive that we extended the range of
+                                its internship mission to match his skills. On a personal matter, Florian is a person I
+                                enjoyed working with.</p>
+                            <footer>Maxime BRITTO. <cite title="Source Title">Dev2a, CTO</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media testimonial">
+                    <div class="media-left">
+                        <img src="images/testimonial-1.png" alt="Sylvie MALEZIEUX">
+                    </div>
+                    <div class="media-body">
+                        <blockquote>
+                            <p>In addition to a strong technical knowledge, Florian ALONSO has good social skills that
+                                allow him to fit easily in teams. During the projects, he has demonstrated autonomy and
+                                has been leading the group. He has often exceeded the goals set by the teacher.</p>
+                            <footer>Sylvie MALEZIEUX. <cite title="Source Title">EPSI Montpellier, Executive
+                                Director</cite></footer>
+                        </blockquote>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- section end -->
 
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="section translucent-bg bg-quotes pb-clear">
-            <div class="container object-non-visible" data-animation-effect="fadeIn">
-                <h1 id="quotes" class="title text-center">Quotes</h1>
-                <div class="space"></div>
+    </div>
+    <!-- section start -->
+    <!-- ================ -->
+    <div class="translucent-bg blue">
+        <div class="container">
+            <div class="list-horizontal">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-1.png" alt="Yoann BONDOUX Quote">
-                            </div>
-                            <div class="media-body">
-                                <blockquote>
-                                    <p>Always smiling and happy, he has a gift for human contact and relationships, which allowed him to easily integrate all kind of teams.</p>
-                                    <footer>Yoann BONDOUX. <cite title="Source Title">Smile Montpellier, Project Manager</cite></footer>
-                                </blockquote>
-                            </div>
+                    <div class="col-md-offset-2 col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/neopixl-logo.png" alt="Neopixl LOGO">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-2.png" alt="Maxime BRITTO  Quote">
-                            </div>
-                            <div class="media-body">
-                                <blockquote>
-                                    <p>Florian ALONSO ended up being so efficient and productive that we extended the range of its internship mission to match his skills. On a personal matter, Florian is a person I enjoyed working with.</p>
-                                    <footer>Maxime BRITTO. <cite title="Source Title">Dev2a, CTO</cite></footer>
-                                </blockquote>
-                            </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/logo-smile-small.jpg" alt="Smile LOGO">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="media testimonial">
-                            <div class="media-left">
-                                <img src="images/testimonial-1.png" alt="Sylvie MALEZIEUX">
-                            </div>
-                            <div class="media-body">
-                                <blockquote>
-                                    <p>In addition to a strong technical knowledge, Florian ALONSO has good social skills that allow him to fit easily in teams. During the projects, he has demonstrated autonomy and has been leading the group. He has often exceeded the goals set by the teacher.</p>
-                                    <footer>Sylvie MALEZIEUX. <cite title="Source Title">EPSI Montpellier, Executive Director</cite></footer>
-                                </blockquote>
-                            </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/logo-dev2a.png" alt="Dev2a LOGO">
                         </div>
                     </div>
-                </div>
-                
-            </div>
-            <!-- section start -->
-            <!-- ================ -->
-            <div class="translucent-bg blue">
-                <div class="container">
-                    <div class="list-horizontal">
-                        <div class="row">
-                            <div class="col-md-offset-2 col-xs-2">
-                                <div class="list-horizontal-item">
-                                    <img src="images/neopixl-logo.png" alt="Neopixl LOGO">
-                                </div>
-                            </div>
-                            <div class="col-xs-2">
-                                <div class="list-horizontal-item">
-                                    <img src="images/logo-smile-small.jpg" alt="Smile LOGO">
-                                </div>
-                            </div>
-                            <div class="col-xs-2">
-                                <div class="list-horizontal-item">
-                                    <img src="images/logo-dev2a.png" alt="Dev2a LOGO">
-                                </div>
-                            </div>
-                            <div class="col-xs-2">
-                                <div class="list-horizontal-item">
-                                    <img src="images/epsi-logo.png" alt="EPSI LOGO">
-                                </div>
-                            </div>
+                    <div class="col-xs-2">
+                        <div class="list-horizontal-item">
+                            <img src="images/epsi-logo.png" alt="EPSI LOGO">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- section end -->
-        </div>
-        <!-- section end -->
-
-
-
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="section default-bg">
-            <div class="container object-non-visible" data-animation-effect="fadeIn">
-                <h1 id="social" class="title text-center">Social</h1>
-                <div class="space"></div>
-                <div class="row">
-                    <div class="col-md-offset-4 col-md-4">
-                        <a href="https://www.betaseries.com/membre/roselito13" >
-                            <img src="https://www.betaseries.com/membre/roselito13/signature.jpg" alt="betaseries" />
-                        </a>
-                    </div>
-                </div>
-                <div class="space"></div>
-                <div class="row">
-                    <div class="col-md-offset-4 col-md-4">
-                        <a class="twitter-timeline" href="https://twitter.com/AlonsoFloo" data-widget-id="711511412871471104">Tweets by @AlonsoFloo</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- section end -->
+    </div>
+    <!-- section end -->
+</div>
+<!-- section end -->
 
-        <!-- section start -->
-        <!-- ================ -->
-        <div class="default-bg space">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="text-center">A work done</h1>
+
+<!-- section start -->
+<!-- ================ -->
+<div class="section default-bg">
+    <div class="container object-non-visible" data-animation-effect="fadeIn">
+        <h1 id="social" class="title text-center">Social</h1>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+                <a href="https://www.betaseries.com/membre/roselito13">
+                    <img src="https://www.betaseries.com/membre/roselito13/signature.jpg" alt="betaseries"/>
+                </a>
+            </div>
+        </div>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+                <a class="twitter-timeline" href="https://twitter.com/AlonsoFloo" data-widget-id="711511412871471104">Tweets
+                    by @AlonsoFloo</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section end -->
+
+<!-- section start -->
+<!-- ================ -->
+<div class="default-bg space">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="text-center">A work done</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section end -->
+
+<!-- footer start -->
+<!-- ================ -->
+<footer id="footer">
+
+    <!-- .footer start -->
+    <!-- ================ -->
+    <div class="footer section">
+        <div class="container">
+            <h1 class="title text-center" id="contact">Contact Me</h1>
+            <div class="space"></div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="footer-content">
+                        <ul class="list-icons">
+                            <li><i class="fa fa-map-marker pr-10"></i> Montpellier, France</li>
+                            <li><i class="fa fa-phone pr-10"></i> <a href="tel:+33669248274">(+33)6 69 24 82 74</a></li>
+                            <li><i class="fa fa-envelope-o pr-10"></i> <a href="mailto:alonso.floo@gmail.com">alonso.floo@gmail.com</a>
+                            </li>
+                            <li><i class="fa fa-download pr-10"></i> Download <a
+                                    href="javascript:resumeButton('resume_florian_alonso.pdf')" target="_blank">my
+                                resume</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-content">
+                        <ul class="list-icons">
+                            <li><i class="fa fa-github pr-10"></i> GitHub : <a href="http://github.com/AlonsoFloo"
+                                                                               target="_blank">Florian ALONSO</a></li>
+                            <li><i class="fa fa-stack-overflow pr-10"></i> StackOverflow : <a
+                                    href="http://stackoverflow.com/users/3828773/AlonsoFloo" target="_blank">Florian
+                                ALONSO</a></li>
+                            <li><i class="fa fa-twitter pr-10"></i> Twitter : <a href="http://twitter.com/AlonsoFloo"
+                                                                                 target="_blank">Florian ALONSO</a></li>
+                            <li><i class="fa fa-linkedin  pr-10"></i> LinkedIn : <a
+                                    href="http://www.linkedin.com/in/AlonsoFloo" target="_blank">Florian ALONSO</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- section end -->
+    </div>
+    <!-- .footer end -->
+</footer>
+<!-- footer end -->
 
-        <!-- footer start -->
-        <!-- ================ -->
-        <footer id="footer">
+<!-- JavaScript files placed at the end of the document so the pages load faster
+================================================== -->
+<!-- Jquery and Bootstap core js files -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
-            <!-- .footer start -->
-            <!-- ================ -->
-            <div class="footer section">
-                <div class="container">
-                    <h1 class="title text-center" id="contact">Contact Me</h1>
-                    <div class="space"></div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="footer-content">
-                                <ul class="list-icons">
-                                    <li><i class="fa fa-map-marker pr-10"></i> Montpellier, France</li>
-                                    <li><i class="fa fa-phone pr-10"></i> <a href="tel:+33669248274">(+33)6 69 24 82 74</a></li>
-                                    <li><i class="fa fa-envelope-o pr-10"></i> <a href="mailto:alonso.floo@gmail.com">alonso.floo@gmail.com</a></li>
-                                    <li><i class="fa fa-download pr-10"></i> Download <a href="javascript:resumeButton('resume_florian_alonso.pdf')" target="_blank">my resume</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="footer-content">
-                                <ul class="list-icons">
-                                    <li><i class="fa fa-github pr-10"></i> GitHub : <a href="http://github.com/AlonsoFloo" target="_blank">Florian ALONSO</a></li>
-                                    <li><i class="fa fa-stack-overflow pr-10"></i> StackOverflow : <a href="http://stackoverflow.com/users/3828773/AlonsoFloo" target="_blank">Florian ALONSO</a></li>
-                                    <li><i class="fa fa-twitter pr-10"></i> Twitter : <a href="http://twitter.com/AlonsoFloo" target="_blank">Florian ALONSO</a></li>
-                                    <li><i class="fa fa-linkedin  pr-10"></i> LinkedIn : <a href="http://www.linkedin.com/in/AlonsoFloo" target="_blank">Florian ALONSO</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .footer end -->
-        </footer>
-        <!-- footer end -->
+<!-- Modernizr javascript -->
+<script type="text/javascript" src="plugins/modernizr.js"></script>
 
-        <!-- JavaScript files placed at the end of the document so the pages load faster
-        ================================================== -->
-        <!-- Jquery and Bootstap core js files -->
-        <script type="text/javascript" src="plugins/jquery.min.js"></script>
-        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<!-- Isotope javascript -->
+<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
 
-        <!-- Modernizr javascript -->
-        <script type="text/javascript" src="plugins/modernizr.js"></script>
+<!-- Backstretch javascript -->
+<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 
-        <!-- Isotope javascript -->
-        <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+<!-- Appear javascript -->
+<script type="text/javascript" src="plugins/jquery.appear.js"></script>
 
-        <!-- Backstretch javascript -->
-        <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+<!-- Initialization of Plugins -->
+<script type="text/javascript" src="js/template.js"></script>
 
-        <!-- Appear javascript -->
-        <script type="text/javascript" src="plugins/jquery.appear.js"></script>
+<!-- Custom Scripts -->
+<script type="text/javascript" src="js/custom.js"></script>
 
-        <!-- Initialization of Plugins -->
-        <script type="text/javascript" src="js/template.js"></script>
-
-        <!-- Custom Scripts -->
-        <script type="text/javascript" src="js/custom.js"></script>
-
-    </body>
+</body>
 </html>
